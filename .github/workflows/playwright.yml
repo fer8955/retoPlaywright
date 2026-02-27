@@ -2,9 +2,9 @@ name: Playwright Test
 
 on:
   push:
-    branches: [ "playwright" ]
+    branches: [ "Playwright" ]
   pull_request:
-    branches: [ "playwright" ]
+    branches: [ "Playwright" ]
   workflow_dispatch:
 
 jobs:
