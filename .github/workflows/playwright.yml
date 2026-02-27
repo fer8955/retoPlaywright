@@ -41,6 +41,7 @@ jobs:
             -Dsonar.projectKey=fer8955_retoPlaywright \
             -Dsonar.organization=fer8955 \
             -Dsonar.host.url=https://sonarcloud.io \
+            -Dsonar.branch.name=Playwright
             -Dsonar.sources=. \
             -Dsonar.exclusions=**/node_modules/**,**/playwright-report/**,**/target/** \
             -Dsonar.tests=. \
